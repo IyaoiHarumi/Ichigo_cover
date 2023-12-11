@@ -44,12 +44,12 @@
 					"File": "motion/hiyori_m08.motion3.json"
 				}
 			],
-			"Tap@Body": [
+			"TapBody": [
 				{
 					"File": "motion/hiyori_m09.motion3.json"
 				}
 			],
-			"Flick@Body": [
+			"FlickBody": [
 				{
 					"File": "motion/hiyori_m10.motion3.json"
 				}
@@ -76,7 +76,8 @@
 	"HitAreas": [
 		{
 			"Id": "HitArea",
-			"Name": "Body"
+			"Name": "Body",
+			"Motion": "TapBody"
 		}
 	]
 }
